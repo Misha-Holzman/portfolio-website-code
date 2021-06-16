@@ -1,0 +1,251 @@
+.main-page-container {
+  margin-bottom: 0%;
+}
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+  .main-page-container {
+    margin-bottom: 18%;
+  }
+}}
+
+/* Safari 10.1 */
+@media not all and (min-resolution:.001dpcm){ 
+@supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
+  .main-page-container {
+    margin-bottom: 18%;
+  }
+}}
+
+/* Safari 6.1-10.0 (not 10.1) */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0){ 
+  .main-page-container {
+    margin-bottom: 18%;
+  }
+}
+
+
+
+.about-headshot-and-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-right: 12%;
+  width: 100%;
+}
+
+.about-title {
+  font-family: "Lekton", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 8px;
+}
+
+.about-page {
+  padding: 8% 5% 0 5%;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.profile-pic {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+  margin-right: 13%;
+  border-radius: 300px;
+  margin-top: 15%;
+}
+
+
+.resume-button-link {
+  text-decoration: none;
+  border-radius: 100px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #70d1bd;
+  border: 3px solid #70d1bd;
+  outline: none;
+  padding-top: 5px;
+  transition: 500ms;
+  width: 40%;
+  height: 100%;
+  padding: 5px 20px 5px 20px;
+  margin-top: 15%;
+  text-align: center;
+  margin-right: 13%;
+}
+.resume-button-link:hover {
+  transition: 500ms;
+  background-color: #ea5c5a;
+  border: 3px solid #ea5c5a;
+  color: white;
+}
+
+/*
+#shapes-svg {
+  z-index: -2;
+  position: absolute;
+  top: 165%;
+  left: -6%;
+  height: 50%;
+  transform: rotate(95deg);
+}*/
+
+/*
+.about-page:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+*/
+
+
+.about-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Lekton", sans-serif;
+  width: 100%;
+}
+
+.hello-text {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Patrick Hand", cursive;
+  letter-spacing: 4px;
+  margin-bottom: 1%;
+}
+
+.main-text {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+.main-text-last {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+#about-page {
+  margin-top: 0%;
+  padding-top: 2%;
+}
+
+#link2 {
+  text-decoration: none;
+  margin-top: 1.5%;
+}
+
+.arrow {
+  margin-top: 0px;
+  -webkit-animation: shake-vertical 18s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    infinite both;
+  animation: shake-vertical 18s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
+    both;
+  margin-left: 4px !important;
+}
+
+.about-all-texts {
+  display: flex;
+  flex-flow: column;
+}
+
+@-webkit-keyframes shake-vertical {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  80% {
+    -webkit-transform: translateY(6.4px);
+    transform: translateY(6.4px);
+  }
+  90% {
+    -webkit-transform: translateY(-6.4px);
+    transform: translateY(-6.4px);
+  }
+}
+@keyframes shake-vertical {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  80% {
+    -webkit-transform: translateY(6.4px);
+    transform: translateY(6.4px);
+  }
+  90% {
+    -webkit-transform: translateY(-6.4px);
+    transform: translateY(-6.4px);
+  }
+}
+
+
+
+
+/* <div class="wrapper">
+  <div class="text-container">
+<a class="text">nihil sub sole novum</a>
+  </div>
+</div> */
+
+
+.resume-link-animation {
+  transition: background-size .4s ease;
+  background: linear-gradient(to bottom, transparent 62%, rgb(255, 227, 71) 0) center center/0% 75% no-repeat;
+  cursor: pointer;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.resume-link-animation:hover {
+  background-size: 100% 100%;
+}
+.resume-link-animation:active {
+  background-size: 80% 100%;
+}
+
+.resume-button-link:before {
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 0;
+}
+
+

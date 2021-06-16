@@ -1,0 +1,902 @@
+.main-work-container {
+  margin: 8% 8% 0 8%;
+}
+
+#my-work {
+  padding-top: 7%;
+}
+
+.my-work-title {
+  font-family: "Sarina", cursive;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 8px;
+/*  border-top: 2px solid black;
+  border-bottom: 2px solid black;*/
+  margin-bottom: 4%;
+}
+
+.press-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  width: 95%;
+}
+
+/* .shaka-site {
+  border-radius: 15px;
+}
+
+.shaka-div {
+  padding: 8% 0% 18% 0%;
+  border-bottom: solid rgba(0, 0, 0, .1) 2px;
+}
+
+.winson-site {
+  border-radius: 15px;
+}
+
+.winson-div {
+  padding: 18% 0% 18% 0%;
+  border-bottom: solid rgba(0, 0, 0, .1) 2px;
+}
+.fooder-site {
+  border-radius: 15px;
+}
+
+.fooder-div {
+  padding: 18% 0% 18% 0%;
+  border-bottom: solid rgba(0, 0, 0, .1) 2px;
+
+}
+.keeper-site {
+  border-radius: 15px;
+}
+
+.keeper-div {
+  padding: 18% 0% 18% 0%;
+} */
+
+
+/*.press-container > div {
+  padding: 30px;
+}*/
+
+/* .press-container > div > img {
+  max-height: 86px;
+  width: 51px;
+} */
+
+/* .hover11 a img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+#my-work {
+}
+
+.hover11 a:hover img {
+  opacity: .7;
+} */
+/**/
+#press {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+
+
+
+
+
+
+
+#flip-box {
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+#flip-box-click {
+  background-color: transparent;
+  width: 700px;
+  height: 300px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+#flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 130%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+#flip-box {
+  background-color: transparent;
+  width: 900px;
+  height: 445px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.annabel-lee-div-container {
+  margin-bottom: 25%;
+  margin-top: 8%;
+  width: 100%
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+#flip-box:hover #flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* #flip-box-click:hover #flip-box-inner {
+  transform: rotateY(180deg);
+} */
+
+#flip-box-clicked #flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+
+/* Position the front and back side */
+#flip-box-front, #flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+#flip-box-front {
+  background-color: white;
+  color: black;
+  height: 100%;
+}
+
+/* Style the back side */
+#flip-box-back {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transform: rotateY(180deg);
+  font-family: "Montserrat", sans-serif;
+}
+
+#flip-box-back {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transform: rotateY(180deg);
+  font-family: "Montserrat", sans-serif;
+  margin-top: -1%;
+}
+.back-card-text {
+  padding-right: 4%;
+  padding-left: 4%;
+  height: 100%;
+}
+
+.annabel-back-card {
+  margin-top: 10%;
+}
+.fooder-back-card {
+  margin-top: 10%;
+}
+
+#tresensa-flip-text {
+  margin-top: 16%;
+}
+#josh-flip-text {
+  margin-top: 20%;
+  margin-bottom: -10%;
+}
+#shaka-flip-text {
+  margin-top: 10%;
+}
+#winson-flip-text {
+  margin-top: 8%;
+}
+#legends-flip-text {
+  margin-top: 7%;
+}
+#fooder-flip-text {
+  margin-top: 3%;
+}
+#soccer-flip-text {
+  margin-top: 0%;
+}
+
+.tresensa-div-container {
+  margin-bottom: 15%;
+  margin-top: 0%;
+}
+.tresensa-iframe-component {
+  border: 0px #ffffff none;
+}
+
+
+
+.annabel-lee-div-container {
+  margin-bottom: 25%;
+  margin-top: 8%;
+}
+.josh-acting-div-container {
+  margin-bottom: 25%;
+  margin-top: 8%;
+}
+.kazimira-div-container {
+  margin-bottom: 28%;
+  margin-top: 8%;
+}
+.eric-art-div-container {
+  margin-bottom: 30%;
+  margin-top: 8%;
+}
+.shaka-div-container {
+  margin-top: 8%;
+  margin-bottom: 38%;
+}
+
+.winson-div-container {
+  margin-bottom: 40%;
+}
+
+.deckOfLegends-div-container {
+  margin-bottom: 37%;
+}
+
+.fooder-div-container {
+  margin-bottom: 50%;
+}
+
+.soccer-div-container {
+  margin-bottom: 35%;
+}
+
+
+
+
+
+
+
+
+#vehicle-img {
+  height: 445px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+#josh-acting-img {
+  height: 463px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+#ric-artist-img {
+  height: 515px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+#kaz-healing-img {
+  height: 504px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+#shaka-img {
+  height: 502px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+#winson-img {
+  height: 523px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+#legends-img {
+  height: 475px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+#fooder-img {
+  height: 590px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+#soccer-img {
+  height: 540px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+
+#card-title-shaka {
+  margin-top: 6%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#card-title-winson {
+  margin-top: -4%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#card-title-legends {
+  margin-top: -4%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#card-title-fooder {
+  padding-top: 8%;
+  font-size: 25px;
+  font-weight: 600;
+}
+#card-title-soccer {
+  padding-top: 8%;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#card-text {
+  font-size: 13px;
+  margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+#card-title-josh-acting {
+  margin-top: 6%;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+
+
+.github-button {
+  border-radius: 40px;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+  font-family: "Lekton", sans-serif;
+  font-size: 20px;
+  border: 1px solid black;
+  outline: none;
+  padding-top: 5px;
+  box-shadow: 6px 7px 0px -1px #70d1bd;
+  -webkit-box-shadow: 6px 7px 0px -1px #70d1bd;
+  -moz-box-shadow: 6px 7px 0px -1px #70d1bd;
+  transition: 200ms;
+}
+
+.buttons-div {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: space-around;
+  justify-content: center;
+}
+
+.github-button:hover {
+  transition: 200ms;
+  box-shadow: -6px -7px 0px -1px #ea5c5a;
+  -webkit-box-shadow: -6px -7px 0px -1px #ea5c5a;
+  -moz-box-shadow: -6px -7px 0px -1px #ea5c5a;
+}
+
+.live-site-button {
+  border-radius: 40px;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+  font-family: "Lekton", sans-serif;
+  font-size: 20px;
+  border: 1px solid black;
+  outline: none;
+  padding-top: 5px;
+  box-shadow: 6px 7px 0px -1px #70d1bd;
+  -webkit-box-shadow: 6px 7px 0px -1px #70d1bd;
+  -moz-box-shadow: 6px 7px 0px -1px #70d1bd;
+  transition: 200ms;
+}
+
+.live-site-button:hover {
+  transition: 200ms;
+  box-shadow: -6px -7px 0px -1px #ea5c5a;
+  -webkit-box-shadow: -6px -7px 0px -1px #ea5c5a;
+  -moz-box-shadow: -6px -7px 0px -1px #ea5c5a;
+}
+
+
+.live-site-button-link {
+  margin-right: 3%;
+  text-decoration: none;
+}
+.live-site-button-link-solo {
+  margin-right: 0%;
+  text-decoration: none;
+}
+
+
+.github-button-link {
+  margin-right: 3%;
+  text-decoration: none;
+}
+
+
+.josh-acting-vid {
+  height: 300px; 
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+
+.my-work-my-designs-div {
+  /* border-top: 2px solid black; */
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.my-designs-business-cards-div1 {
+  width: 70%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 15%;
+}
+.my-designs-business-cards-div2 {
+  width: 70%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 10%;
+}
+
+.designs-title {
+  font-family: "Sarina", cursive;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 10%;
+  margin-top: 14%;
+  width: 100%;
+}
+
+.business-card-img-1 {
+  height: 200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 10%;
+}
+.business-card-img-2 {
+  height: 200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+.mix-business-card-img-1 {
+  height: 200px;
+  margin-right: 10%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+.mix-business-card-img-2 {
+  height: 200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+
+
+
+
+
+
+
+
+.my-designs-tresensa-div {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.ts-mock-img-1 {
+  height: 900px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 10%;
+  transition: all .3s ease-in-out;
+}
+.ts-mock-img-2 {
+  height: 1200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 13%;
+  transition: all .3s ease-in-out;
+}
+
+.ts-mock-img-1:hover {
+  transform: scale(1.4);
+}
+.ts-mock-img-2:hover {
+  transform: scale(1.6);
+}
+
+
+
+
+.my-designs-cbd-div {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 13% !important;
+}
+
+.cbd-mock-img-1 {
+  height: 500px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 15%;
+}
+.cbd-mock-img-2 {
+  height: 500px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 15%;
+}
+.cbd-mock-img-3 {
+  height: 500px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+
+
+
+.my-designs-cuda-mock-div-2 {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 5%;
+}
+
+.cuda-mock-img-1 {
+  height: 637px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-top: 25%;
+}
+.cuda-mock-img-2 {
+  height: 500px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+.cuda-mock-img-3 {
+  height: 500px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+
+
+
+
+
+
+
+
+
+
+
+.cuda-logo-slides {
+  height: 300px;
+  margin-top: 4%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+
+
+.cuda-mock-slides {
+  height: 500px;
+  margin-top: 4%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+
+
+
+
+
+.cuda-site-vid {
+  height: 565px;
+  margin-top: 10%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+.nsf-site-vid {
+  height: 565px;
+  margin-top: 18%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}
+
+
+#slider {
+  overflow: hidden;
+  width: 100%;
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 15s slider infinite;
+}
+#slider figure .cuda-logo-slides {
+  width: 20%;
+  float: left;
+  height: 100%;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+
+
+
+
+
+.my-designs-photography-div {
+  width: 95%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  margin-top: 20%;
+}
+.photography-mock-img-1 {
+  height: 950px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 5%;
+  transition: all .3s ease-in-out;
+}
+.photography-mock-img-2 {
+  height: 950px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  transition: all .3s ease-in-out;
+}
+.photography-mock-img-3 {
+  height: 980px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 5%;
+  margin-top: 10%;
+  transition: all .3s ease-in-out;
+}
+.photography-mock-img-4 {
+  height: 520px;
+  margin-top: 10%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  transition: all .3s ease-in-out;
+}
+
+.photography-mock-img-1:hover {
+  transform: scale(1.2);
+}
+.photography-mock-img-2:hover {
+  transform: scale(1.2);
+}
+.photography-mock-img-3:hover {
+  transform: scale(1.2);
+}
+.photography-mock-img-4:hover {
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+#tresensa-video-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-bottom: 7%;
+  margin-top: 8%;
+}
+.tresensa-screen-rec {
+  height: 450px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  border-radius: 15px;
+}
+.tresensa-screen-rec:focus {
+  outline: 0;
+}
+
+.tresensa-buttons-div {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+.tresesa-live-site-button {
+
+}
+.tresensa-live-site-button-link:hover {
+  transition: 200ms;
+
+}
+.tresensa-live-site-button-link {
+  text-decoration: none;
+  border-radius: 100px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #70d1bd;
+  border: 3px solid #70d1bd;
+  outline: none;
+  padding-top: 5px;
+  transition: 500ms;
+  width: 100%;
+  height: 100%;
+  padding: 5px 20px 5px 20px;
+}
+.tresensa-live-site-button-link:hover {
+  transition: 500ms;
+  background-color: #ea5c5a;
+  border: 3px solid #ea5c5a;
+  color: white;
+}
+
+
+.tresensa-live-site-button {
+  border-radius: 40px;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+  font-family: "Lekton", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid black;
+  outline: none;
+  padding-top: 5px;
+  box-shadow: 6px 7px 0px -1px #70d1bd;
+  -webkit-box-shadow: 6px 7px 0px -1px #70d1bd;
+  -moz-box-shadow: 6px 7px 0px -1px #70d1bd;
+  transition: 200ms;
+  padding: 5px 10px 5px 10px;
+}
+.tresensa-live-site-button:hover {
+  transition: 200ms;
+  box-shadow: -6px -7px 0px -1px #ea5c5a;
+  -webkit-box-shadow: -6px -7px 0px -1px #ea5c5a;
+  -moz-box-shadow: -6px -7px 0px -1px #ea5c5a;
+}
+
+
+
+
+
+
+
+
+.designs-nav-bar {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row wrap;
+  width: 100%;
+}
+
+
+.design-nav-bullets {
+  list-style: none;
+  width: 90%;
+  margin: 3% 2% 0% 2% !important;
+  padding: 0;
+  display: flex;
+  flex-direction: row wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.design-links {
+  display: inline;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  list-style: none;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 0;
+}
+
+
+.design-nav-text-links {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border-bottom: 1.2px solid black;
+}
+
+.section {
+  width: 100%
+}
+.section_item {
+  width: 100%
+}
+
+.design-header-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.geo-shapes-graphic-img {
+  height: 670px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-top: 15%;
+}

@@ -25,30 +25,20 @@ class AboutPage extends Component {
           <div className='about-all-texts'>
             <h3 className='hello-text'>Hi! I'm Misha Holzman</h3>
             <p className='main-text'>
-            I am a web designer and front end developer with an eye for modern cohesive design.
-            I am passionate about helping companies and individuals express who they are and
-            what they represent by creating beautiful interfaces and engaging experiences that drive real results.
+            I am a web and visual designer / front end developer skilled in cohesive modern design.
+            I create unique and beautiful user-oriented responsive websites, giving individuals and companies 
+            the platform to dynamically communicate their mission and product to their target audience. 
+            My work drives business and exposure through innovative ideas, precise detail, spacial mastery, 
+            business understanding, intuitive consistency and intelligent user-flow.
             </p>
             <p className='main-text'>
             I was born in raised in NYC surrounded by art and design.
-            I love to create art and music in my free time and I cultivate my creative drive in design and coding.
-            I studied business and management in college, and this background gave me the ability to understand
-            the essence and direction of a brand or individual and how to convey that with an effective and engaging user experience.
+            I have a formal education in business, grew up as the son of professional artists, 
+            and went back to school to learn coding, all leading me to blend a business oriented mindset with 
+            creative and technical ability in web/visual design and web development. 
             </p>
             <p className='main-text'>
-            I understand the importance of aligning a company or individual’s online presence with their
-            brand, vision, values, and positioning within an industry.
-            A visit to a website is a lot like physically walking into a store.
-            Every part of the visit, from the lighting to the font on the walls will impact how you feel
-            about the product while inside and help shape your opinion of the brand.
-            </p>
-            <p className='main-text'>
-            Have an idea? Let’s get in touch and build something awesome!
-            Shoot me an email or give me a ring about any inquiries, I’m always happy to chat <span role='img' aria-label='emoji'>🤙</span>
-            </p>
-            <p className='main-text-last'>
-            I am currently searching for a new role as a web designer and/or creative front end developer.
-            I am looking for a level of creative freedom, a great company/ team culture, and exciting meaningful projects.
+            I am always happy to chat about possible opportunities! Shoot me an email and I will be in touch. <span role='img' aria-label='emoji'>🤙</span>
             </p>
           </div>
         </div>

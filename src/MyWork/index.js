@@ -404,7 +404,7 @@ class MyWork extends Component {
                           to='/WebDesign'
                           class='sm-link sm-link_padding-all sm-link6 design-nav-text-links'
                         >
-                          <span class='sm-link__label'>Web / Visual Design</span>
+                          <span class='sm-link__label'>Web Design</span>
                         </Link>
                       </div>
                     </div>

@@ -1,3 +1,33 @@
 /* "eslintConfig": {
   "extends": "react-app"
 }, */
+
+
+
+
+.my-designs-pawtastic-div-2 {
+  width: 95%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  margin-top: 10%;
+  padding-top: 5%;
+}
+
+.pawtastic-img-1 {
+  height: 837px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 3%;
+}
+.pawtastic-img-2 {
+  height: 1190px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+  margin-right: 3%;
+
+}
+.pawtastic-img-3 {
+  height: 750px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 8px 0 rgba(0, 0, 0, 0.30);
+}

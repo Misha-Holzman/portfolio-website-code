@@ -15,6 +15,10 @@ import cudamockimg3 from '../assets/Cuda-snow-mock-three.png'
 
 import NSFsiteVid from '../assets/NSF-site.mp4'
 
+import pawtasticComponents from '../assets/pawtastic-marketing-components.png'
+import pawtasticWireframe from '../assets/pawtastic–wireframes.png'
+import pawtasticPrototype from '../assets/pawtastic-prototype.png'
+
 
 class WebDesign extends Component {
   render () {
@@ -30,6 +34,11 @@ class WebDesign extends Component {
           <img src={photographymockimg2} alt='' className='photography-mock-img-2' />
           <img src={photographymockimg3} alt='' className='photography-mock-img-3' />
           <img src={photographymockimg4} alt='' className='photography-mock-img-4' />
+        </div>
+        <div className='my-designs-pawtastic-div-2'>
+          <img src={pawtasticWireframe} alt='' className='pawtastic-img-1' />
+          <img src={pawtasticPrototype} alt='' className='pawtastic-img-2' />
+          <img src={pawtasticComponents} alt='' className='pawtastic-img-3' />
         </div>
         <div className='my-designs-cuda-mock-div-1'>
           <img src={cudamockimg1} alt='' className='cuda-mock-img-1' />

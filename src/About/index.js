@@ -29,7 +29,8 @@ class AboutPage extends Component {
             I create unique and beautiful user-oriented responsive websites, giving individuals and companies 
             the platform to dynamically communicate their mission and product to their target audience. 
             My work drives business and exposure through innovative ideas, precise detail, spacial mastery, 
-            business understanding, intuitive consistency and intelligent user-flow.
+            business understanding, intuitive consistency and intelligent user-flow. 
+            My goal is to create an elegant combination of form and function.
             </p>
             <p className='main-text'>
             I was born in raised in NYC surrounded by art and design.

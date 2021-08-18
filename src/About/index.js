@@ -8,7 +8,7 @@ class AboutPage extends Component {
         <div className='about-page-container'>
           <div className='about-headshot-and-button'>
             <img
-              src='https://i.imgur.com/uK42b4V.jpg'
+              src='https://i.imgur.com/Is9MGP0.jpg'
               className='profile-pic'
               height='250px'
               alt=''
